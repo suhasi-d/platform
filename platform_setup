@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Set the Enviroment variables 
+
+# export SHARED_VOLUME_PATH=/Users/user/Documents/Code
+export SHARED_VOLUME_PATH=/Users/raghu/Documents/External/Projects
+
+#Clean container and images
+docker-compose down
+docker rm -f platform_dev
+
+# Bring up containers  
+docker-compose up -d
+
+

@@ -1,0 +1,20 @@
+version: "2.1"
+services:
+  platform_dev:
+      container_name: platform_dev
+      image: suhasi/platform-sys:latest
+      volumes:
+        - ${SHARED_VOLUME_PATH}/:/work/
+      stdin_open: true
+      privileged: true
+      cap_add:
+        - ALL
+      tty: true
+      cpus: 2.0
+      mem_limit: '2000000000'
+      memswap_limit: '2000000000'
+      mem_swappiness: 0
+      command:
+        /bin/bash
+
+

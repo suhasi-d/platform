@@ -1,0 +1,1 @@
+docker exec -it platform_c bash
