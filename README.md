@@ -1,7 +1,7 @@
 # Platform
 This document deals with different platforms to run lab tests 
 
-clone the repo in your desired directory `git https://github.com/suhasi-d/platform.git`
+clone the repo in your desired directory `git colne https://github.com/suhasi-d/platform.git`
 if git is not installed just download the code zip at your preferred directory 
 
 ## Docker Setup
