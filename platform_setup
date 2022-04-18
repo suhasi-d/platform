@@ -2,8 +2,7 @@
 
 # Set the Enviroment variables 
 
-# export SHARED_VOLUME_PATH=/Users/user/Documents/Code
-export SHARED_VOLUME_PATH=/Users/raghu/Documents/External/Projects
+export SHARED_VOLUME_PATH=/Users/user/Documents/Code
 
 #Clean container and images
 docker-compose down
