@@ -1,1 +1,1 @@
-docker exec -it platform_c bash
+docker exec -it platform_dev bash
